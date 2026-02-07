@@ -1,0 +1,10 @@
+# system
+.DS_Store
+Thumbs.db
+
+# scripts / temp
+download_images.sh
+
+# node / tools (на будущее)
+node_modules/
+.env
