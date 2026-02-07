@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qaz NS GROUP — торговая компания, Астана</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Верхняя инфо-полоса -->
+    <div class="topbar">
+      <div class="container topbar__row">
+        <div class="topbar__left">
+          <span>Пн–Пт: 09:00–18:00 · Сб: 09:00–13:00</span>
+          <span class="topbar__sep">|</span>
+          <a href="mailto:szrti-kz@mail.ru">szrti-kz@mail.ru</a>
+        </div>
+        <div class="topbar__right">
+          <a href="https://wa.me/77779206964" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Шапка -->
+    <header class="header">
+      <div class="container header__row">
+        <a href="index.html" class="logo">
+          <span class="logo__name">Qaz NS GROUP</span>
+          <span class="logo__tag">wholesale company</span>
+        </a>
+
+        <nav class="nav" id="nav">
+          <a href="catalog.html">Каталог</a>
+          <a href="#services">Услуги</a>
+          <a href="#about">О компании</a>
+          <a href="#advantages">Преимущества</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+
+        <div class="header__cta">
+          <a class="phone" href="https://wa.me/77779206964" target="_blank" rel="noopener">+7 (777) 920-69-64</a>
+          <a class="btn btn--primary" href="#lead">Оставить заявку</a>
+        </div>
+
+        <button class="burger" id="burger" aria-label="Открыть меню">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__text">
+            <p class="hero__badge">Надёжный B2B-поставщик</p>
+            <h1>Широкий ассортимент товаров для&nbsp;бизнеса и&nbsp;производства</h1>
+            <p class="hero__desc">
+              Казахстанская торговая компания по реализации широкого ассортимента
+              товаров. Спецодежда, СИЗ, краски, расходные материалы — подберём
+              и&nbsp;доставим по&nbsp;Казахстану.
+            </p>
+            <div class="hero__buttons">
+              <a class="btn btn--primary btn--lg" href="#lead">Получить расчёт</a>
+              <a class="btn btn--ghost btn--lg" href="catalog.html">Открыть каталог</a>
+            </div>
+          </div>
+
+          <div class="hero__card">
+            <div class="hero__img" aria-label="Qaz NS GROUP"></div>
+            <div class="hero__note">
+              <strong>Срок ответа:</strong> обычно до 30 минут в рабочее время
+            </div>
+          </div>
+        </div>
+
+        <!-- Статистика доверия -->
+        <div class="container">
+          <div class="stats">
+            <div class="stat">
+              <span class="stat__num" data-target="8">0</span>
+              <span class="stat__label">лет на рынке</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num" data-target="350">0</span>
+              <span class="stat__label">довольных клиентов</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num" data-target="1200">0</span>
+              <span class="stat__label">выполненных заказов</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num" data-target="15">0</span>
+              <span class="stat__label">категорий товаров</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Услуги -->
+      <section id="services" class="section">
+        <div class="container">
+          <p class="section__label">Что мы делаем</p>
+          <h2>Направления поставок</h2>
+          <div class="cards">
+            <article class="card">
+              <div class="card__icon">&#128085;</div>
+              <h3>Спецодежда и СИЗ</h3>
+              <p>Перчатки, очки, каски, подшлемники, средства защиты органов дыхания.</p>
+            </article>
+            <article class="card">
+              <div class="card__icon">&#127912;</div>
+              <h3>Краски и покрытия</h3>
+              <p>Водоэмульсионные краски FAVORIT, органические краски, огнезащитная краска ОПЗ-МЕТ-О.</p>
+            </article>
+            <article class="card">
+              <div class="card__icon">&#128230;</div>
+              <h3>Расходные материалы</h3>
+              <p>Диски, плёнка, мешки строительные, ветошь, обтирочное полотно.</p>
+            </article>
+            <article class="card">
+              <div class="card__icon">&#128666;</div>
+              <h3>Логистика</h3>
+              <p>Доставка по Казахстану, оформление документов, сопровождение груза.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- О компании -->
+      <section id="about" class="section section--muted">
+        <div class="container about__grid">
+          <div>
+            <p class="section__label">Кто мы</p>
+            <h2>О компании</h2>
+            <p class="about__text">
+              Qaz NS GROUP — казахстанская торговая компания по реализации широкого
+              ассортимента товаров, а также по разработке решений в IT индустрии.
+              Мы помогаем предприятиям закупать всё необходимое: быстро считаем,
+              предлагаем варианты и контролируем сроки поставки.
+            </p>
+          </div>
+          <div class="about__highlights">
+            <div class="about__item">
+              <span class="about__check">&#10003;</span>
+              Работаем с юрлицами по договору
+            </div>
+            <div class="about__item">
+              <span class="about__check">&#10003;</span>
+              Полный пакет документов (счёт, накладная, счёт-фактура)
+            </div>
+            <div class="about__item">
+              <span class="about__check">&#10003;</span>
+              Персональный менеджер на каждый проект
+            </div>
+            <div class="about__item">
+              <span class="about__check">&#10003;</span>
+              Отгрузка со склада или под заказ
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Преимущества -->
+      <section id="advantages" class="section">
+        <div class="container">
+          <p class="section__label">Почему мы</p>
+          <h2>Почему выбирают нас</h2>
+          <div class="advantages">
+            <div class="adv">
+              <div class="adv__icon">&#128176;</div>
+              <h3 class="adv__title">Честные цены</h3>
+              <p class="adv__desc">Прозрачное ценообразование без скрытых наценок. Предоставляем сравнительные расчёты.</p>
+            </div>
+            <div class="adv">
+              <div class="adv__icon">&#128338;</div>
+              <h3 class="adv__title">Быстрые сроки</h3>
+              <p class="adv__desc">Средний срок поставки — 5–14 дней. Срочные заказы обрабатываем в приоритете.</p>
+            </div>
+            <div class="adv">
+              <div class="adv__icon">&#128101;</div>
+              <h3 class="adv__title">B2B-экспертиза</h3>
+              <p class="adv__desc">Понимаем специфику промышленных закупок, работаем с тендерами и долгосрочными контрактами.</p>
+            </div>
+            <div class="adv">
+              <div class="adv__icon">&#128230;</div>
+              <h3 class="adv__title">Широкий каталог</h3>
+              <p class="adv__desc">15 категорий товаров — от спецодежды и СИЗ до красок и строительных расходников.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Форма -->
+      <section id="lead" class="section section--dark">
+        <div class="container lead">
+          <div class="lead__info">
+            <p class="section__label section__label--light">Начать работу</p>
+            <h2>Получить расчёт</h2>
+            <p>Оставьте контакты — свяжемся через WhatsApp и уточним задачу. Расчёт бесплатный и ни к чему не обязывает.</p>
+            <div class="lead__trust">
+              <div>&#128274; Данные не передаём третьим лицам</div>
+              <div>&#9993; Ответ в течение 30 минут</div>
+            </div>
+          </div>
+
+          <form class="form" id="leadForm">
+            <input name="name" placeholder="Ваше имя" required />
+            <input name="company" placeholder="Название компании" />
+            <input name="phone" placeholder="Телефон" required />
+            <textarea name="message" placeholder="Опишите, что нужно поставить" rows="3"></textarea>
+            <button class="btn btn--primary btn--lg" type="submit">Отправить заявку</button>
+            <p class="form__hint" id="formHint"></p>
+          </form>
+        </div>
+      </section>
+
+      <!-- Контакты -->
+      <section id="contacts" class="section">
+        <div class="container">
+          <p class="section__label">Связаться</p>
+          <h2>Контакты</h2>
+          <div class="contacts">
+            <div class="contacts__info">
+              <div class="contact__group">
+                <h4>Телефон (WhatsApp)</h4>
+                <a href="https://wa.me/77779206964" class="contact__value" target="_blank" rel="noopener">+7 (777) 920-69-64</a>
+              </div>
+              <div class="contact__group">
+                <h4>Email</h4>
+                <a href="mailto:szrti-kz@mail.ru" class="contact__value">szrti-kz@mail.ru</a>
+              </div>
+              <div class="contact__group">
+                <h4>Адрес</h4>
+                <span class="contact__value">просп. Бауыржана Момышулы 2/1, Астана 010000, Казахстан</span>
+              </div>
+              <div class="contact__group">
+                <h4>Режим работы</h4>
+                <span class="contact__value">Пн–Пт: 09:00–18:00 · Сб: 09:00–13:00</span>
+              </div>
+              <div class="contact__messengers">
+                <a href="https://wa.me/77779206964" class="btn btn--messenger" target="_blank" rel="noopener">Написать в WhatsApp</a>
+              </div>
+            </div>
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2505.8!2d71.4138!3d51.1282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z0J_RgNC-0YHQvy4g0JHQsNGD0YvRgNC20LDQvdCwINCc0L7QvNGL0YjRg9C70Ysg2/1!5e0!3m2!1sru!2skz!4v1"
+                width="100%"
+                height="260"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Qaz NS GROUP на карте"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__row">
+        <div class="footer__brand">
+          <div class="footer__logo">Qaz NS GROUP</div>
+          <div class="footer__copy">&copy; <span id="year"></span> Qaz NS GROUP. Все права защищены.</div>
+        </div>
+        <div class="footer__links">
+          <a href="catalog.html">Каталог</a>
+          <a href="#services">Услуги</a>
+          <a href="#about">О компании</a>
+          <a href="#contacts">Контакты</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./JS/main.js"></script>
+  </body>
+</html>

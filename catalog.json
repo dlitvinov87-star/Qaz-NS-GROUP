@@ -1,0 +1,309 @@
+{
+  "categories": [
+    {
+      "id": "vetosh",
+      "title": "Ветошь, обтирочное нетканное полотно",
+      "icon": "🧹",
+      "imagesPath": "images/catalog/vetosh/",
+      "items": [
+        { "id": "vafelnaya-tkan", "name": "Вафельная ткань", "image": "226442143_vafelnaya-tkan.jpg" },
+        { "id": "vetosh-dlya-uborki", "name": "Ветошь 140/80м для уборки", "image": "187008216_vetosh-dlya-uborki.jpg" },
+        { "id": "vetosh-na-tryapki", "name": "Ветошь 110/40м (на тряпки для уборки)", "image": "218143768_vetosh-na-tryapki.jpg" },
+        { "id": "netkanoe-polotno-1", "name": "Нетканое полотно 140/100м (Ветошь)", "image": "218143636_netkanoe-polotno-vetosh.jpg" },
+        { "id": "netkanoe-polotno-2", "name": "Нетканое полотно 140/70м (Ветошь для уборки)", "image": "218143738_netkanoe-polotno-vetosh.jpg" },
+        { "id": "netkanoe-polotno-3", "name": "Нетканое полотно на тряпки для уборки", "image": "187008368_netkanoe-polotno-na.jpg" },
+        { "id": "netkanoe-polotno-web", "name": "Нетканое полотно (Ветошь)", "image": "82528447_w640_h640_netkanoe-polotno-vetosh.webp" }
+      ]
+    },
+    {
+      "id": "favorit",
+      "title": "Водоэмульсионные краски FAVORIT",
+      "icon": "🎨",
+      "imagesPath": "images/catalog/favorit/",
+      "items": [
+        { "id": "favorit-interiernaya-15", "name": "Краска водоэмульсионная FAVORIT интерьерная 15 кг", "image": "179508501_kraska-vodoemulsionnaya-favorit.jpg" },
+        { "id": "favorit-interiernaya-25", "name": "Краска водоэмульсионная FAVORIT интерьерная 25 кг", "image": "179508807_kraska-vodoemulsionnaya-favorit.jpg" },
+        { "id": "favorit-aqua-lux-15", "name": "Краска FAVORIT AQUA LUX моющаяся 15 кг", "image": "179508872_kraska-vodoemulsionnaya-favorit.jpg" },
+        { "id": "favorit-aqua-lux-25", "name": "Краска FAVORIT AQUA LUX моющаяся 25 кг", "image": "179509076_kraska-vodoemulsionnaya-favorit.jpg" },
+        { "id": "favorit-master-lux-15", "name": "Краска FAVORIT MASTER LUX супер моющаяся 15 кг", "image": "179509564_kraska-vodoemulsionnaya-favorit.jpg" },
+        { "id": "favorit-master-lux-25", "name": "Краска FAVORIT MASTER LUX супер моющаяся 25 кг", "image": "179509566_kraska-vodoemulsionnaya-favorit.jpg" },
+        { "id": "favorit-fasad-15", "name": "Краска водоэмульсионная FAVORIT фасадная 15 кг", "image": "179511134_kraska-vodoemulsionnaya-favorit.jpg" },
+        { "id": "favorit-fasad-25", "name": "Краска водоэмульсионная FAVORIT фасадная 25 кг", "image": "179511148_kraska-vodoemulsionnaya-favorit.jpg" },
+        { "id": "favorit-universal-15", "name": "Краска водоэмульсионная универсальная 15 кг", "image": "179511217_universalnaya-kraska-vodoemulsionnaya.jpg" },
+        { "id": "favorit-universal-25", "name": "Краска водоэмульсионная универсальная 25 кг", "image": "179511230_universalnaya-kraska-vodoemulsionnaya.jpg" },
+        { "id": "emal-favorit-akrilovaya-1", "name": "Эмаль FAVORIT акриловая", "image": "179511339_emal-favorit-akrilovaya.jpg" },
+        { "id": "emal-favorit-akrilovaya-2", "name": "Эмаль FAVORIT акриловая для радиаторов", "image": "179511413_emal-favorit-akrilovaya.jpg" },
+        { "id": "klej-mastika-3kg", "name": "Клей «МАСТИКА» FAVORIT акриловый 3 кг", "image": "179511608_klej-mastika.jpg" },
+        { "id": "klej-mastika-7kg", "name": "Клей «МАСТИКА» FAVORIT акриловый 7 кг", "image": "179511619_klej-mastika.jpg" },
+        { "id": "lak-akrilovyj-1", "name": "Лак акриловый водорастворимый FAVORIT", "image": "179511629_lak-akrilovyj-favorit.jpg" },
+        { "id": "lak-akrilovyj-2", "name": "Лак акриловый FAVORIT (большой)", "image": "179511632_lak-akrilovyj-favorit.jpg" },
+        { "id": "gruntovka-glubokogo", "name": "Грунтовка укрепляющая глубокого проникновения 5 л", "image": "179627461_gruntovka-ukreplyayuschie-glubokogo.jpg" },
+        { "id": "betonkontakt", "name": "Грунтовка сцепляющая БЕТОНКОНТАКТ 14 кг", "image": "179827004_gruntovka-stseplyayuschaya-betonkontakt.jpg" },
+        { "id": "favorit-moyusch", "name": "Краска водоэмульсионная FAVORIT моющаяся", "image": "179827363_kraska-vodoemulsionnaya-favorit.jpg" },
+        { "id": "favorit-protir", "name": "Краска FAVORIT интерьерная (протирающаяся)", "image": "179827371_kraska-vodoemulsionnaya-favorit.jpg" },
+        { "id": "grunt-neva-zhd", "name": "Грунт-эмаль НЕВА ЖД", "image": "219577322_grunt-emal-neva-zhd.jpg" },
+        { "id": "grunt-nipol-tsink", "name": "Грунт-эмаль НИПОЛ ЦИНК 20 кг серый", "image": "219577608_grunt-emal-nipol-tsink.jpg" },
+        { "id": "emal-hv-785", "name": "Эмаль ХВ-785", "image": "219577818_emal-hv-785.jpg" },
+        { "id": "rastvoritel-646", "name": "Растворитель 646", "image": "219587876_rastvoritel-646.jpg" },
+        { "id": "uajt-spirit", "name": "Уайт-спирит 10 л", "image": "219589977_uajt-spirit-10-l.jpg" },
+        { "id": "freecolor", "name": "Краска водоэмульсионная Freecolor", "image": "225782061_kraska-vodoemulsionnaya-freecolor.jpg" },
+        { "id": "moyusch-25", "name": "Краска моющаяся 25 кг", "image": "226355655_kraska-moyuschayasya-25.jpg" },
+        { "id": "interier-25", "name": "Краска интерьерная 25 кг", "image": "226356561_kraska-interernaya-25.jpg" },
+        { "id": "valik-master", "name": "Валик «Мастер Универсал»", "image": "228339432_valik-master-universal.jpg" },
+        { "id": "valik", "name": "Валик 110мм (набор 5 запасок)", "image": "valik.jpeg" },
+        { "id": "gf-021-viteko", "name": "Грунт ГФ-021 Витеко 20 кг", "image": "GF-021-Viteko.jpeg" },
+        { "id": "sarytau-betonkontakt", "name": "Бетоноконтакт SARYTAU 15 кг", "image": "Sarytau-betonkontakt.png" },
+        { "id": "sarytau-moyusch", "name": "Водоэмульсия моющаяся SARYTAU", "image": "Vodoemulsiya-moyushhayasya-SARYTAU.png" }
+      ]
+    },
+    {
+      "id": "ochki",
+      "title": "Защитные очки",
+      "icon": "🥽",
+      "imagesPath": "images/catalog/ochki/",
+      "items": [
+        { "id": "ochki-nepryamoj", "name": "Очки с непрямой вентиляцией", "image": "198941323_ochki-s-nepryamoj.jpg" },
+        { "id": "ochki-otkrytye-1", "name": "Открытые защитные очки", "image": "198941341_otkrytye-zaschitnye-ochki.jpg" },
+        { "id": "ochki-otkrytye-2", "name": "Открытые защитные очки (модель 2)", "image": "198941341_otkrytye-zaschitnye-ochki-1.jpg" },
+        { "id": "ochki-protiv-tsarap", "name": "Очки против царапания и запотевания", "image": "198941380_ochki-zaschitnye-ochki.jpg" },
+        { "id": "ochki-polikarbonat", "name": "Очки поликарбонатные прозрачные линзы", "image": "198956509_ochki-zaschitnye-polikarbonatnye.jpg" },
+        { "id": "ochki-silikonovye", "name": "Очки защитные силиконовые с непрямой вентиляцией", "image": "198956537_ochki-zaschitnye-silikonovye.jpg" },
+        { "id": "ochki-svarka-hameleon", "name": "Очки сварка хамелеон", "image": "198956560_ochki-svarka-hameleon.jpg" },
+        { "id": "ochki-gazosvarshhika", "name": "Очки защитные газосварщика", "image": "198956565_ochki-zaschitnye-gazosvarschika.jpg" },
+        { "id": "ochki-zakrytye-pryamoj", "name": "Защитные очки закрытые с прямой вентиляцией", "image": "198956568_zaschitnye-ochki-zakrytye.jpg" },
+        { "id": "ochki-zakrytye-nepryamoj", "name": "Очки закрытые из поликарбоната, с непрямой вентиляцией", "image": "198956598_ochki-zakrytye-zaschitnye.jpg" },
+        { "id": "ochki-tpk-100", "name": "Очки защитные ТПК-100 (тёмный, прозрачный, жёлтый)", "image": "201944804_ochki-zaschitnye-tpk-100.jpg" }
+      ]
+    },
+    {
+      "id": "kraski-organic",
+      "title": "Краски органические",
+      "icon": "🖌️",
+      "imagesPath": "images/catalog/kraski-organic/",
+      "items": [
+        { "id": "grunt-gf-021-krasno", "name": "Грунт ГФ-021 красно-коричневый", "image": "179839257_grunt-gf-021-krasno-korichnevyj.jpg" },
+        { "id": "grunt-gf-021-univers", "name": "Грунт ГФ-021 универсальный", "image": "179844502_grunt-gf-021-universalnyj.jpg" },
+        { "id": "emal-pf-115-belaya-20kg", "name": "Эмаль ПФ-115 белая 20 кг", "image": "180935455_emal-pf-115-belaya.jpg" },
+        { "id": "emal-pf-115-sinyaya", "name": "Эмаль ПФ-115 синяя", "image": "181049638_emal-pf-115-sinyaya.jpg" },
+        { "id": "emal-pf-115-krasnaya", "name": "Эмаль ПФ-115 красная", "image": "181049658_emal-pf-115-krasnaya.jpg" },
+        { "id": "emal-pf-115-zelenaya", "name": "Эмаль ПФ-115 зелёная", "image": "181049660_emal-pf-115-zelenaya.jpg" },
+        { "id": "emal-pf-115-zheltaya", "name": "Эмаль ПФ-115 жёлтая", "image": "181049670_emal-pf-115-zheltaya.jpg" },
+        { "id": "emal-pf-115-golubaya", "name": "Эмаль ПФ-115 голубая", "image": "181049677_emal-pf-115-golubaya.jpg" },
+        { "id": "emal-pf-115-biryuzovaya", "name": "Эмаль ПФ-115 бирюзовая", "image": "181049688_emal-pf-115-biryuzovaya.jpg" },
+        { "id": "emal-pf-115-vishnevaya", "name": "Эмаль ПФ-115 вишнёвая", "image": "181050122_emal-pf-115-vishnevaya.jpg" },
+        { "id": "emal-pf-115-temno-zelen", "name": "Эмаль ПФ-115 тёмно-зелёная", "image": "181050168_emal-pf-115-temno-zelenaya.jpg" },
+        { "id": "emal-pf-115-sirenevaya", "name": "Эмаль ПФ-115 сиреневая", "image": "181052752_emal-pf-115-sirenevaya.jpg" },
+        { "id": "emal-pf-115-sv-golubaya", "name": "Эмаль ПФ-115 светло-голубая", "image": "180155000_emal-pf-115-sv-golubaya.jpg" },
+        { "id": "emal-pf-115-seraya", "name": "Эмаль ПФ-115 серая", "image": "180155107_emal-pf-115-seraya.jpg" },
+        { "id": "emal-pf-115-salatovaya", "name": "Эмаль ПФ-115 салатовая", "image": "181053061_emal-pf-115-salatovaya.jpg" },
+        { "id": "emal-pf-115-korichnevyj", "name": "Эмаль ПФ-115 коричневый", "image": "181053066_emal-pf-115-korichnevyj.jpg" },
+        { "id": "emal-viteko-pf-115", "name": "Эмаль Витеко ПФ-115", "image": "219579607_emal-viteko-pf-115.jpg" },
+        { "id": "emal-pf-115-belaya-empils", "name": "Эмаль ПФ-115 белая Empils", "image": "226374453_emal-pf-115-belaya.jpg" },
+        { "id": "grunt-emal-3v1-1", "name": "Грунт-эмаль по ржавчине 3 в 1", "image": "180932243_grunt-emal-po.jpg" },
+        { "id": "grunt-emal-3v1-2", "name": "Грунт-эмаль по ржавчине (цвета)", "image": "181066174_grunt-emal-po.jpg" },
+        { "id": "grunt-emal-rzhavchine", "name": "Грунт-эмаль по ржавчине", "image": "219576962_grunt-emal-po-rzhavchine.jpg" },
+        { "id": "emal-nts-132", "name": "Эмаль НЦ-132", "image": "219577072_emal-nts-132.jpg" },
+        { "id": "emal-nts-132-kp", "name": "Эмаль НЦ-132 КП", "image": "181090885_emal-nts-132-kp.jpg" },
+        { "id": "emal-dlya-pola-1", "name": "Эмаль для пола", "image": "181090819_emal-dlya-pola.jpg" },
+        { "id": "emal-dlya-betonnyh", "name": "Эмаль для бетонных полов", "image": "181067024_emal-dlya-betonnyh.jpg" },
+        { "id": "grunt-gf-021-seryj", "name": "Грунт ГФ-021 серый", "image": "180924176_grunt-gf-021-seryj.jpg" },
+        { "id": "kraska-razmetki", "name": "Краска для разметки", "image": "224448020_kraska-dlya-razmetki.jpg" },
+        { "id": "kraska-bt-177-serebr", "name": "Краска БТ-177 серебристая", "image": "224482935_kraska-bt-177-serebristaya.jpg" },
+        { "id": "kraska-bt-177-zolot", "name": "Краска БТ-177 золотистая", "image": "224703220_kraska-bt-177-zolotistaya.jpg" },
+        { "id": "gruntovka-hs-010", "name": "Грунтовка ХС-010 серая", "image": "224954057_gruntovka-hs-010-seraya.jpg" },
+        { "id": "gruntovka-hs-059", "name": "Грунтовка ХС-059 серая", "image": "224955463_gruntovka-hs-059-seraya.jpg" },
+        { "id": "dorozhnaya", "name": "Краска дорожная", "image": "dorozhnaya.jpg" },
+        { "id": "gf-021-novokolor", "name": "Грунт ГФ-021 Новоколор", "image": "GF-021-novokolor.jpg" }
+      ]
+    },
+    {
+      "id": "meshki",
+      "title": "Мешки строительные (мусорные)",
+      "icon": "🗑️",
+      "imagesPath": "images/catalog/meshki/",
+      "items": [
+        { "id": "meshki-stroitelnye", "name": "Мешки строительные для мусора", "image": "ChatGPT-Image-14-maya-2025-g.-15_24_05.png" }
+      ]
+    },
+    {
+      "id": "opz-met-o",
+      "title": "ОПЗ-МЕТ-О огнезащитная краска",
+      "icon": "🔥",
+      "imagesPath": "images/catalog/opz-met-o/",
+      "items": [
+        { "id": "ognezashchitnaya-vodnoj", "name": "Огнезащитная краска для металла на водной основе", "image": "Ognezashhitnaya-na-vodnoj-osnove.jpeg" }
+      ]
+    },
+    {
+      "id": "perchatki",
+      "title": "Перчатки",
+      "icon": "🧤",
+      "imagesPath": "images/catalog/perchatki/",
+      "items": [
+        { "id": "akrilovaya-seraya-20", "name": "Акриловая зимняя перчатка без меха серая -20", "image": "196406506_akrilovaya-zimnyaya-perchatka.jpg" },
+        { "id": "akrilovaya-zheltaya-40", "name": "Акриловая зимняя перчатка с мехом жёлтая -40", "image": "228318245_akrilovaya-zimnyaya-perchatka.jpg" },
+        { "id": "akrilovaya-zelenaya-30", "name": "Акриловая зимняя перчатка текстурная зелёная -30", "image": "220833920_perchatka-akrilovaya-s.jpg" },
+        { "id": "akrilovaya-salatovaya-30", "name": "Акриловая зимняя перчатка текстурная салатовая -30", "image": "Akrilovaya-zimnyaya-perchatka-s-mehom-teksturnaya-salatovaya-30.jpeg" },
+        { "id": "akrilovaya-sinyaya-30", "name": "Акриловая зимняя перчатка текстурная синяя -30", "image": "228764308_akrilovaya-zimnyaya-perchatka.jpg" },
+        { "id": "akrilovaya-temno-sinyaya-30", "name": "Акриловая зимняя перчатка текстурная тёмно-синяя -30", "image": "Akrilovaya-zimnyaya-perchatka-s-mehom-teksturnaya-temno-sinyaya-30.jpeg" },
+        { "id": "akrilovaya-dvojnoj-obliv", "name": "Акриловая перчатка салатовая с двойным обливом -20", "image": "226989740_akrilovaya-perchatka-salatovaya.jpg" },
+        { "id": "akrilovaya-uteplenie-sinyaya", "name": "Акриловая зимняя перчатка с утеплением синяя -30", "image": "180429402_perchatka-akrilovaya-s.jpg" },
+        { "id": "flisovye-chernye", "name": "Зимние флисовые перчатки (чёрные)", "image": "228276830_zimnie-flisovye-perchatki.jpg" },
+        { "id": "kraga-krasnaya-leto", "name": "Крага красная лето КРС", "image": "Kraga-krasnaya-leto.jpeg" },
+        { "id": "kraga-krasnaya-zima", "name": "Крага красная утеплённая", "image": "Kraga-krasnaya-zima.jpeg" },
+        { "id": "kraga-oranzhevaya", "name": "Крага оранжевая лето", "image": "220846441_kraga-oranzhevaya-leto.jpg" },
+        { "id": "kraga-svarochnaya-sinyaya", "name": "Крага сварочная синяя лето", "image": "MBS-kraga-sinyaya.jpg" },
+        { "id": "kraga-sinyaya-zima", "name": "Крага синяя утеплённая", "image": "226420614_kraga-sinyaya-uteplennaya.jpg" },
+        { "id": "kraga-alyaska", "name": "Крага Аляска", "image": "Alyaska-kraga.jpeg" },
+        { "id": "perchatka-lateksnaya-uteplennaya", "name": "Перчатка латексная утеплённая", "image": "180090938_perchatka-lateksnaya-uteplennaya.jpg" },
+        { "id": "perchatka-lateksnaya-delfin", "name": "Перчатка латексная «Дельфин»", "image": "180423699_perchatka-lateksnaya-delfin.jpg" },
+        { "id": "perchatki-nejlonovye-13", "name": "Перчатки нейлоновые 13 класс", "image": "180088450_perchatki-nejlonovye-13.jpg" },
+        { "id": "perchatki-nejlonovye-lajm", "name": "Перчатки нейлоновые лайм", "image": "226351755_perchatki-lajm-nejlonovye.jpg" },
+        { "id": "perchatki-hb-7kl", "name": "Перчатки хлопчатобумажные 7 класс", "image": "180434642_perchatki-hlopchatobumazhnye-7.jpg" },
+        { "id": "perchatki-hb-10kl", "name": "Перчатки хлопчатобумажные 10 класс", "image": "226440117_perchatki-hlopchatobumazhnye-10.jpg" },
+        { "id": "perchatki-hb-lyuks", "name": "Перчатки х/б Люкс", "image": "226440930_perchatki-hb-lyuks.jpg" },
+        { "id": "perchatki-hb-1000gr", "name": "Перчатки х/б 1000 гр", "image": "226437036_perchatki-hb-1000gr.jpg" },
+        { "id": "perchatki-hb-pvh", "name": "Перчатки х/б с ПВХ 10 класс", "image": "Standart-hb-s-PVH-10-kl.jpeg" },
+        { "id": "perchatki-hb-lateks-obliv", "name": "Перчатки х/б с латексным обливом", "image": "226424264_perchatki-hb-s.jpg" },
+        { "id": "perchatki-hb-krokodil", "name": "Перчатка х/б с рифлёным латексом «КРОКОДИЛ»", "image": "Perchatka-hb-s-riflennym-lateksom-KROKODIL.jpeg" },
+        { "id": "perchatki-dielektricheskie", "name": "Перчатки диэлектрические бесшовные", "image": "180188281_perchatki-dielektricheskie-besshovnye.jpg" },
+        { "id": "perchatki-kshhs-1", "name": "Перчатки КЩС двухслойные", "image": "180415369_perchatki-kschs-dvuhslojnye.jpg" },
+        { "id": "perchatki-kshhs-2", "name": "Перчатки КЩС тип 1", "image": "KSHHS-tip-1.jpeg" },
+        { "id": "perchatki-kshhs-3", "name": "Перчатки КЩС тип 2", "image": "KSHHS-tip-2.jpeg" },
+        { "id": "perchatki-mbs-krasnaya", "name": "Перчатка МБС красная", "image": "220829694_perchatka-mbs-krasnaya.jpg" },
+        { "id": "perchatki-mbs-polnaya", "name": "Перчатка МБС полная манжет трикотаж", "image": "MBS-polnaya-manzhet-trikotazh.jpg" },
+        { "id": "perchatki-hozyajstvennye-gelevye", "name": "Перчатки хозяйственные гелевые", "image": "185085825_perchatki-hozyajstvennye-gelevye.jpg" },
+        { "id": "perchatki-hozyajstvennye-rezinovye", "name": "Перчатки хозяйственные резиновые", "image": "226424003_perchatki-hozyajstvennye-rezinovye.jpg" },
+        { "id": "perchatki-kevlarovyj", "name": "Кевларовая перчатка с латексом", "image": "Kevlarovyj.jpeg" },
+        { "id": "perchatki-spilkovye-uteplennye", "name": "Перчатки краги спилковые утеплённые", "image": "192348591_perchatki-kragi-spilkovye-uteplennye.jpg" },
+        { "id": "perchatki-qarly-zima", "name": "Перчатки Qarly зима", "image": "180433654_perchatki-qarly-zima.jpg" },
+        { "id": "perchatki-hb-zima-1", "name": "Перчатки х/б зима", "image": "228277343_perchatki-hb-zima.jpg" },
+        { "id": "perchatki-russkij-lev", "name": "Перчатки «Русский Лев»", "image": "228318397_perchatki-russkij-lev.jpg" },
+        { "id": "rukavitsy-uteplennye", "name": "Рукавицы утеплённые на ватине", "image": "228278575_rukavitsy-uteplennye-na.jpg" },
+        { "id": "rukavitsy-brezentovye-kombin", "name": "Рукавицы брезентовые комбинированные", "image": "228279183_rukavitsy-brezentovye-kombinirovannye.jpg" },
+        { "id": "rukavitsy-brezentovye", "name": "Рукавицы брезентовые", "image": "228279265_rukavitsy-brezentovye.jpg" },
+        { "id": "rukavitsy-sukonnye", "name": "Суконные рукавицы", "image": "228282316_sukonnye-rukavitsy.jpg" }
+      ]
+    },
+    {
+      "id": "plenka-puzyrchataya",
+      "title": "Пленка воздушно-пузырчатая",
+      "icon": "📦",
+      "imagesPath": "images/catalog/plenka-puzyrchataya/",
+      "items": [
+        { "id": "plenka-puzyrchataya-100m", "name": "Плёнка воздушно-пузырчатая 100м х 1,2м толщина 5мм", "image": "202679499_plenka-vozdushno-puzyrchataya-100mh12m.jpg" }
+      ]
+    },
+    {
+      "id": "plenka-tekhnicheskaya",
+      "title": "Пленка техническая полиэтиленовая",
+      "icon": "📋",
+      "imagesPath": "images/catalog/plenka-tekhnicheskaya/",
+      "items": [
+        { "id": "plenka-prozrachnaya", "name": "Плёнка прозрачная полиэтиленовая", "image": "201480792_plenka-prozrachnaya-polietilenovaya.jpg" },
+        { "id": "plenka-tehn-1", "name": "Плёнка полиэтиленовая техническая", "image": "224707102_plenka-polietilenovaya-tehnicheskaya.jpg" },
+        { "id": "plenka-tehn-2", "name": "Плёнка техническая полиэтиленовая (синяя)", "image": "224707618_plenka-tehn-polietilenovaya.jpg" }
+      ]
+    },
+    {
+      "id": "podshlemniki",
+      "title": "Подшлемники, шапки, балаклавы",
+      "icon": "🪖",
+      "imagesPath": "images/catalog/podshlemniki/",
+      "items": [
+        { "id": "podshlemnik-vyazanyj-1sl", "name": "Подшлемник вязаный однослойный", "image": "198613966_podshlemnik-vyazanyj-odnoslojnyj.jpg" },
+        { "id": "podshlemnik-vyazanyj-2sl", "name": "Подшлемник вязаный двухслойный", "image": "198627899_podshlemnik-vyazanyj-dvuhslojnyj.jpg" },
+        { "id": "balaklava", "name": "Балаклава подшлемник зимняя", "image": "198626994_balaklava-podshlemnik-zimnyaya.jpg" },
+        { "id": "podshlemnik-flisovyj", "name": "Подшлемник флисовый", "image": "198627842_podshlemnik-flisovyj.jpg" },
+        { "id": "podshlemnik-trikotazhnyj", "name": "Подшлемник трикотажный летний", "image": "198631892_podshlemnik-trikotazhnyj-letnij.jpg" },
+        { "id": "podshlemnik-maska", "name": "Подшлемник-маска вязаный", "image": "198631805_podshlemnik-maska-vyazanyj.jpg" },
+        { "id": "shapka-ushanka", "name": "Шапка ушанка чёрная", "image": "198627065_shapka-ushanka-chernaya.jpg" },
+        { "id": "shapka-vyazanaya", "name": "Шапка вязаная на флисе", "image": "198629443_shapka-vyazanaya-na.jpg" }
+      ]
+    },
+    {
+      "id": "diski",
+      "title": "Расходные материалы (диски)",
+      "icon": "⚙️",
+      "imagesPath": "images/catalog/diski/",
+      "items": [
+        { "id": "krug-otreznoj-abrazivnyj", "name": "Круг отрезной абразивный по металлу", "image": "224708738_krug-otreznoj-abrazivnyj.jpg" },
+        { "id": "krug-otreznoj-almaznyj", "name": "Круг отрезной алмазный", "image": "224714224_krug-otreznoj-almaznyj.jpg" }
+      ]
+    },
+    {
+      "id": "specodezhda",
+      "title": "Спецодежда",
+      "icon": "👷",
+      "imagesPath": "images/catalog/specodezhda/",
+      "items": [
+        { "id": "kombinezon-1", "name": "Защитный комбинезон", "image": "ChatGPT-Image-14-maya-2025-g.-17_44_29.png" },
+        { "id": "kombinezon-2", "name": "Одноразовый комбинезон", "image": "ChatGPT-Image-14-maya-2025-g.-17_49_00.png" },
+        { "id": "specodezhda-3", "name": "Спецодежда рабочая", "image": "WhatsApp-Image-2025-06-04-at-14.14.38.jpeg" }
+      ]
+    },
+    {
+      "id": "zashchita-golovy",
+      "title": "Средства защиты головы",
+      "icon": "⛑️",
+      "imagesPath": "images/catalog/zashchita-golovy/",
+      "items": [
+        { "id": "kaska-iz-polikarbonata", "name": "Каска рабочая из поликарбоната", "image": "198610285_kaska-rabochaya-iz.jpg" },
+        { "id": "kaska-zaschitnaya-1", "name": "Каска рабочая защитная", "image": "198612565_kaska-rabochaya-zaschitnaya.jpg" },
+        { "id": "kasketka-6", "name": "Каскетка защитная", "image": "198612900_kasketka-zaschitnaya-6.jpg" },
+        { "id": "kaska-zaschitnaya-2", "name": "Каска рабочая защитная (модель 2)", "image": "198612962_kaska-rabochaya-zaschitnaya.jpg" },
+        { "id": "shapka-ushanka-uteplennaya", "name": "Шапка ушанка утеплённая", "image": "198613004_shapka-ushanka-uteplennaya.jpg" },
+        { "id": "kasketka-temno", "name": "Каскетка рабочая тёмная", "image": "198613222_kasketka-rabochaya-temno.jpg" },
+        { "id": "kaska-stroitelnaya", "name": "Каска строительная защитная с храповым механизмом", "image": "198613245_kaska-stroitelnaya-zaschitnaya.jpg" },
+        { "id": "kaska-zaschitnaya-3", "name": "Каска защитная рабочая", "image": "198613301_kaska-zaschitnaya-rabochaya.jpg" },
+        { "id": "kaska-zaschitnaya-4", "name": "Защитная каска рабочая", "image": "198613777_zaschitnaya-kaska-rabochaya.jpg" },
+        { "id": "kaska-obshchego", "name": "Каска защитная общего назначения", "image": "201931803_kaska-zaschitnaya-obschego.jpg" }
+      ]
+    },
+    {
+      "id": "zashchita-dykhaniya",
+      "title": "Средства защиты органов дыхания",
+      "icon": "😷",
+      "imagesPath": "images/catalog/zashchita-dykhaniya/",
+      "items": [
+        { "id": "respirator-ag-safety", "name": "Респиратор AG Safety", "image": "228644421_respirator-ag-safety.jpg" },
+        { "id": "polumaska-ag-1", "name": "Полумаска AG Safety (модель 1)", "image": "228645196_polumaska-ag-safety.jpg" },
+        { "id": "polumaska-ag-2", "name": "Полумаска AG Safety (модель 2)", "image": "228645531_polumaska-ag-safety.jpg" },
+        { "id": "polumaska-ag-3", "name": "Полумаска AG Safety (модель 3)", "image": "228973986_polumaska-ag-safety.jpg" },
+        { "id": "polnolitsevaya-1", "name": "Полнолицевая маска AG Safety 670i", "image": "228647377_polnolitsevaya-maska-ag.jpg" },
+        { "id": "polnolitsevaya-2", "name": "Полнолицевая маска AG Safety", "image": "228647595_polnolitsevaya-maska-ag.jpg" },
+        { "id": "filtr-ag-1", "name": "Фильтр AG Safety (1)", "image": "228654806_filtr-ag-safety.jpg" },
+        { "id": "filtr-ag-2", "name": "Фильтр AG Safety (2)", "image": "228654806_filtr-ag-safety-1.jpg" },
+        { "id": "filtr-ag-3", "name": "Фильтр AG Safety (3)", "image": "228654806_filtr-ag-safety-2.jpg" },
+        { "id": "filtr-ag-4", "name": "Фильтр AG Safety (сменный)", "image": "228661420_filtr-ag-safety.jpg" },
+        { "id": "filtr-ag-5", "name": "Фильтр AG Safety (дополнительный)", "image": "228974487_filtr-ag-safety.jpg" },
+        { "id": "derzhatel-predfiltra", "name": "Держатель предфильтра AG Safety", "image": "228682742_derzhatel-predfiltra-ag.jpg" },
+        { "id": "predfiltr", "name": "Предфильтр AG Safety", "image": "228682838_predfiltr-ag-safety.jpg" },
+        { "id": "filtr-ugolnyj", "name": "Фильтр AG Safety (угольный)", "image": "228682879_filtr-ag-safety.jpg" },
+        { "id": "plenka-ag", "name": "Плёнка AG Safety (защитная)", "image": "228969364_plenka-ag-safety.jpg" },
+        { "id": "sumka-poyasnaya", "name": "Сумка поясная для полумаски", "image": "228973250_sumka-poyasnaya-dlya.jpg" },
+        { "id": "respirator-3m-6200", "name": "Респиратор 3M 6200", "image": "Respirator-3M-6200.jpeg" },
+        { "id": "filtr-3m-6057", "name": "Фильтр 3M 6057", "image": "Filtr-ZM-6057.jpeg" },
+        { "id": "filtr-3m-6059", "name": "Фильтр 3M 6059 (пара)", "image": "filtr-3M-6059-para.jpeg" },
+        { "id": "ultra310", "name": "Респиратор Ultra 310", "image": "ultra310_white_bg_2000.jpg" }
+      ]
+    },
+    {
+      "id": "klej-sanz",
+      "title": "Клей герметик Sanz",
+      "icon": "🔧",
+      "imagesPath": "images/catalog/klej-sanz/",
+      "items": [
+        { "id": "pu-construct-40", "name": "PU Construct 40 — полиуретановый строительный клей-герметик", "image": "PU-Construct-40-Poliuretanovyj-stroitelnyj-klej-germetik.jpg" },
+        { "id": "pu-master", "name": "PU Master — полиуретановый клей", "image": "PU-MASTER.jpeg" },
+        { "id": "pu-construct", "name": "PU Construct — герметик строительный", "image": "PU-Sonstruct.jpeg" },
+        { "id": "sg-995", "name": "SG-995 — силиконовый герметик", "image": "SG-995.png" },
+        { "id": "ss-188", "name": "SS-188 — силиконовый герметик", "image": "SS-188.jpeg" },
+        { "id": "ws-789", "name": "WS-789 — герметик", "image": "WS-789.jpeg" },
+        { "id": "sanz-1", "name": "Клей герметик Sanz (универсальный)", "image": "WhatsApp-Image-2024-12-13-at-13.09.07-2.jpeg" },
+        { "id": "sanz-2", "name": "Клей герметик Sanz (строительный)", "image": "WhatsApp-Image-2024-12-13-at-13.09.08-2.jpeg" },
+        { "id": "sanz-3", "name": "Герметик огнестойкий FR-119", "image": "WhatsApp-Image-2025-03-20-at-17.41.25-1.jpeg" }
+      ]
+    }
+  ]
+}

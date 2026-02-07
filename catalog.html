@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Каталог — Qaz NS GROUP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Верхняя инфо-полоса -->
+    <div class="topbar">
+      <div class="container topbar__row">
+        <div class="topbar__left">
+          <span>Пн–Пт: 09:00–18:00 · Сб: 09:00–13:00</span>
+          <span class="topbar__sep">|</span>
+          <a href="mailto:szrti-kz@mail.ru">szrti-kz@mail.ru</a>
+        </div>
+        <div class="topbar__right">
+          <a href="https://wa.me/77779206964" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Шапка -->
+    <header class="header">
+      <div class="container header__row">
+        <a href="index.html" class="logo">
+          <span class="logo__name">Qaz NS GROUP</span>
+          <span class="logo__tag">wholesale company</span>
+        </a>
+
+        <nav class="nav" id="nav">
+          <a href="catalog.html" class="nav--active">Каталог</a>
+          <a href="index.html#services">Услуги</a>
+          <a href="index.html#about">О компании</a>
+          <a href="index.html#advantages">Преимущества</a>
+          <a href="index.html#contacts">Контакты</a>
+        </nav>
+
+        <div class="header__cta">
+          <a class="phone" href="https://wa.me/77779206964" target="_blank" rel="noopener">+7 (777) 920-69-64</a>
+          <a class="btn btn--primary" href="index.html#lead">Оставить заявку</a>
+        </div>
+
+        <button class="burger" id="burger" aria-label="Открыть меню">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Breadcrumb -->
+      <div class="breadcrumb">
+        <div class="container">
+          <a href="index.html">Главная</a>
+          <span class="breadcrumb__sep">/</span>
+          <span>Каталог</span>
+        </div>
+      </div>
+
+      <!-- Catalog hero -->
+      <section class="catalog-hero">
+        <div class="container">
+          <h1>Каталог товаров</h1>
+          <p class="catalog-hero__desc">
+            Выберите категорию для просмотра товаров. Для заказа или уточнения наличия — напишите нам в WhatsApp.
+          </p>
+        </div>
+      </section>
+
+      <!-- Category grid -->
+      <section class="section">
+        <div class="container">
+          <div class="catalog-grid" id="catalogGrid">
+            <!-- filled by JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Category detail (hidden by default) -->
+      <section class="section catalog-detail" id="catalogDetail" style="display:none;">
+        <div class="container">
+          <button class="btn btn--ghost catalog-back" id="catalogBack">&larr; Все категории</button>
+          <h2 id="categoryTitle"></h2>
+          <div class="catalog-items" id="categoryItems">
+            <!-- filled by JS -->
+          </div>
+          <div class="catalog-empty" id="categoryEmpty" style="display:none;">
+            <p>Товары в этой категории скоро появятся. Напишите нам — подберём нужную позицию.</p>
+            <a class="btn btn--primary" href="https://wa.me/77779206964" target="_blank" rel="noopener">Написать в WhatsApp</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__row">
+        <div class="footer__brand">
+          <div class="footer__logo">Qaz NS GROUP</div>
+          <div class="footer__copy">&copy; <span id="year"></span> Qaz NS GROUP. Все права защищены.</div>
+        </div>
+        <div class="footer__links">
+          <a href="catalog.html">Каталог</a>
+          <a href="index.html#services">Услуги</a>
+          <a href="index.html#about">О компании</a>
+          <a href="index.html#contacts">Контакты</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./JS/catalog.js"></script>
+  </body>
+</html>
