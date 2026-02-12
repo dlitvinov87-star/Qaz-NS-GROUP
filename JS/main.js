@@ -78,8 +78,10 @@ const burger = document.getElementById("burger");
 const nav = document.querySelector(".nav");
 
 if (burger && nav) {
+  const header = document.querySelector(".header");
   burger.addEventListener("click", () => {
-    nav.style.display = nav.style.display === "flex" ? "none" : "flex";
+    const isOpen = nav.style.display === "flex";
+    nav.style.display = isOpen ? "none" : "flex";
     nav.style.flexDirection = "column";
     nav.style.position = "absolute";
     nav.style.top = "100%";
@@ -89,7 +91,8 @@ if (burger && nav) {
     nav.style.padding = "16px 20px";
     nav.style.boxShadow = "0 8px 24px rgba(0,0,0,0.1)";
     nav.style.borderRadius = "0 0 12px 12px";
-    nav.style.gap = "12px";
+    nav.style.gap = "4px";
+    header.classList.toggle("nav-open", !isOpen);
   });
 }
 

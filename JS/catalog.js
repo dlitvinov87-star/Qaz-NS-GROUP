@@ -114,25 +114,33 @@ function pluralize(n) {
 // ===== Burger menu (mobile) =====
 const burger = document.getElementById("burger");
 const nav = document.querySelector(".nav");
+const header = document.querySelector(".header");
 
 if (burger && nav) {
   burger.addEventListener("click", () => {
-    const isOpen = nav.classList.toggle("nav--open");
-    if (isOpen) {
-      nav.style.display = "flex";
-      nav.style.flexDirection = "column";
-      nav.style.position = "absolute";
-      nav.style.top = "100%";
-      nav.style.left = "0";
-      nav.style.right = "0";
-      nav.style.background = "#fff";
-      nav.style.padding = "16px 20px";
-      nav.style.boxShadow = "0 8px 24px rgba(0,0,0,0.1)";
-      nav.style.borderRadius = "0 0 12px 12px";
-      nav.style.gap = "12px";
-      nav.style.zIndex = "99";
-    } else {
-      nav.style.display = "none";
-    }
+    const isOpen = nav.style.display === "flex";
+    nav.style.display = isOpen ? "none" : "flex";
+    nav.style.flexDirection = "column";
+    nav.style.position = "absolute";
+    nav.style.top = "100%";
+    nav.style.left = "0";
+    nav.style.right = "0";
+    nav.style.background = "#fff";
+    nav.style.padding = "16px 20px";
+    nav.style.boxShadow = "0 8px 24px rgba(0,0,0,0.1)";
+    nav.style.borderRadius = "0 0 12px 12px";
+    nav.style.gap = "4px";
+    nav.style.zIndex = "99";
+    header?.classList.toggle("nav-open", !isOpen);
   });
 }
+
+// ===== Close nav when clicking any nav link (mobile) =====
+nav?.querySelectorAll("a").forEach((link) => {
+  link.addEventListener("click", () => {
+    if (window.innerWidth <= 960) {
+      nav.style.display = "none";
+      header?.classList.remove("nav-open");
+    }
+  });
+});
