@@ -287,23 +287,6 @@
         { "id": "filtr-3m-6059", "name": "Фильтр 3M 6059 (пара)", "image": "filtr-3M-6059-para.jpeg" },
         { "id": "ultra310", "name": "Респиратор Ultra 310", "image": "ultra310_white_bg_2000.jpg" }
       ]
-    },
-    {
-      "id": "klej-sanz",
-      "title": "Клей герметик Sanz",
-      "icon": "🔧",
-      "imagesPath": "images/catalog/klej-sanz/",
-      "items": [
-        { "id": "pu-construct-40", "name": "PU Construct 40 — полиуретановый строительный клей-герметик", "image": "PU-Construct-40-Poliuretanovyj-stroitelnyj-klej-germetik.jpg" },
-        { "id": "pu-master", "name": "PU Master — полиуретановый клей", "image": "PU-MASTER.jpeg" },
-        { "id": "pu-construct", "name": "PU Construct — герметик строительный", "image": "PU-Sonstruct.jpeg" },
-        { "id": "sg-995", "name": "SG-995 — силиконовый герметик", "image": "SG-995.png" },
-        { "id": "ss-188", "name": "SS-188 — силиконовый герметик", "image": "SS-188.jpeg" },
-        { "id": "ws-789", "name": "WS-789 — герметик", "image": "WS-789.jpeg" },
-        { "id": "sanz-1", "name": "Клей герметик Sanz (универсальный)", "image": "WhatsApp-Image-2024-12-13-at-13.09.07-2.jpeg" },
-        { "id": "sanz-2", "name": "Клей герметик Sanz (строительный)", "image": "WhatsApp-Image-2024-12-13-at-13.09.08-2.jpeg" },
-        { "id": "sanz-3", "name": "Герметик огнестойкий FR-119", "image": "WhatsApp-Image-2025-03-20-at-17.41.25-1.jpeg" }
-      ]
     }
   ]
 }
