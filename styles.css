@@ -728,6 +728,7 @@ a.contact__value:hover { color: var(--primary); text-decoration: none; }
   .cards { grid-template-columns: repeat(2, 1fr); }
   .advantages { grid-template-columns: repeat(2, 1fr); }
   .hero__grid { grid-template-columns: 1fr; gap: 24px; }
+  .hero__card { order: -1; }
   .hero__buttons { flex-direction: column; }
   .hero__buttons .btn { width: 100%; justify-content: center; min-height: 48px; }
   .hero { padding-top: 24px; }
